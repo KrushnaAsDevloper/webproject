@@ -108,6 +108,7 @@ main {
     height: 80%;
     border-radius: 40px;
     transition: .3s ease-in-out;
+    cursor: pointer;
 }
 
 .leftsec .img:hover {
@@ -119,7 +120,11 @@ main {
     width: 8vw;
     top: 57px;
     right: 100px;
-    visibility: hidden;
+    scale: 0;
+    transition: .2s ease-in-out;
+}
+.show{
+    scale: 1.2;
 }
 
 .rightsec {
@@ -142,7 +147,6 @@ main {
     border-radius:40px ;
     font-family: Ubuntu;
 }
-
 .content h1{
     font-size: 3.5vw;
     letter-spacing: 4.5px;
